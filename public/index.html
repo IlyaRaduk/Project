@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <script src="./bundle.js"></script>
+</head>
+<body class="preload">
+    <header class="header"> 
+        <div class="container">
+            <div class="header__line">
+                <div class="header__logo">
+                    <img src="./img/LOGO.png" class="header__img" alt="logo">
+                </div>
+                <div class="menuBurger-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menuBurger">
+                    <nav>
+                        <ul class="menuBurger-items">
+                            <li><a href="#main">Главная</a></li>
+                            <li><a href="#menu">Меню</a></li>
+                            <li><a href="#story">О нас</a></li>
+                            <li><a href="#order">Бронь</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__navItems">
+                        <li class="header__navItem"><a href="#main">Главная</a></li>
+                        <li class="header__navItem"><a href="#menu">Меню</a></li>
+                        <li class="header__navItem"><a href="#story">О нас</a></li>
+                        <li class="header__navItem"><a href="#order">Бронь</a></li>
+                    </ul>
+                    
+                    <div class="header__cart">
+                    <img src="./img/cart.png" alt="cart"> 
+                    </div>
+                    <div class="header__contact">
+                        <div class="header__phone">
+                            <img src="./img/phone.png" alt="phone">
+                            <a href="tel:+999-888-76-54">+999-888-76-54</a>
+                        </div>
+                        <p> Свяжитесь с нами для бронирования </p>
+                    </div>  
+                    <div class="header__btn btn">
+                        <a href="#">заказ столика</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="header__discription" id="main">
+                <p>
+                    Добро пожаловать в <span>Наш ресторан</span>
+                </p> 
+               <div class="header__label">
+                    <h1>Дом лучшей еды</h1>
+               </div>
+                <div class="btn">
+                    <a href="#">Меню</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="intro">
+                <div class="card animation">
+                    <div class="card__logo">
+                        <img src="./img/Mask Group.png" alt="intro">
+                    </div>
+                    <p class="card__name">
+                        Магическая <span>Атмосфера</span>
+                    </p>
+                    <p class="card__discription">
+                        В нашем заведении царит магическая атмосфера
+                        наполненная вкусными ароматами
+                    </p>
+                </div>
+                <div class="card animation">
+                    <div class="card__logo">
+                        <img src="./img/Mask Group.png" alt="intro">
+                    </div>
+                    <p class="card__name">
+                        Лучшее качество <span>Еды</span>
+                    </p>
+                    <p class="card__discription">
+                        Качество нашей<br> Еды - отменное!
+                    </p>
+                </div>
+                <div class="card animation">
+                    <div class="card__logo">
+                        <img src="./img/Mask Group.png" alt="intro">
+                    </div>
+                    <p class="card__name">
+                        Недорогая <span>Еда</span>
+                    </p>
+                    <p class="card__discription">
+                        Стоимость нашей Еды
+                        зависит только от ее
+                        количества. Качество
+                        всегда на высоте!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="story" id="story">
+                <div class="story__discription animation">
+                    <h2 class="story__head">Наша <span>История</span></h2>
+                    <p>Как и у любого другого самобытного места, у нас есть своя, 
+                        особая история. Идея ресторана пришла основателям неожиданно. 
+                        Во время прогулки по лесу создатель нашего ресторана застрял в 
+                        сотнях километров от ближайшего населенного пункта. 
+                        Вдали от цивилизации и связи им пришлось 
+                        навремя обустровать себе нехитрый быт, 
+                        добывать и готовить себе еду.
+                    </p>
+                    <div class="story__counter">
+                        <div class="counter__item">
+                            <p class="number">93</p>
+                            <p class="name">Напитки</p>
+                        </div>
+                        <div class="counter__item">
+                            <p class="number">206</p>
+                            <p class="name">Еда</p>
+                        </div>
+                        <div class="counter__item">
+                            <p class="number">71</p>
+                            <p class="name">Закуски</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="story__photo animation">
+                    <img src="./img/menu.png" alt="Our menu">
+                </div>
+            </div>
+        </div>
+        <div class="order__wraper">
+            <div class="container">
+                <div class="order animation" id="order">
+                    <div class="order__discription">
+                        <h2>Отпразднуйте в одном из 
+                            самых лучших ресторанов.
+                        </h2>
+                        <p>
+                            Только в этом месяце бизнес-ланч от 250 ₽
+                        </p>
+                    </div>
+                    <div class="order__btn btn">
+                        <a href="#">Заказ столика</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="dishes">
+                <h2>Наши <span>Блюда</span></h2>
+                <div class="dishes__main">
+                    <div class="dishes__targetphoto animation">
+                        <img src="./img/burger1.webp" alt="dishes">
+                    </div>
+                    <div class="dishes__list animation">
+                        <div class="dishes__item">
+                            <div class="dishes__photo">
+                                <img src="./img/burger1.webp" alt="dishes photo">
+                            </div>
+                            <div class="dishes__name">
+                                <h3>Гамбургер мини</h3>
+                            </div>
+                            <div class="dishes__dots">
+                            </div>
+                            <div class="dishes__prise">
+                                <p>220 ₽</p>
+                            </div>
+                        </div>
+                        <div class="dishes__item">
+                            <div class="dishes__photo">
+                                <img src="./img/burger2.jpg" alt="dishes photo">
+                            </div>
+                            <div class="dishes__name">
+                                <h3>Гамбургер мини</h3>
+                            </div>
+                            <div class="dishes__dots">
+                            </div>
+                            <div class="dishes__prise">
+                                <p>220 ₽</p>
+                            </div>
+                        </div>
+                        <div class="dishes__item">
+                            <div class="dishes__photo">
+                                <img src="./img/burger3.jpg" alt="dishes photo">
+                            </div>
+                            <div class="dishes__name">
+                                <h3>Гамбургер мини</h3>
+                            </div>
+                            <div class="dishes__dots">
+                            </div>
+                            <div class="dishes__prise">
+                                <p>220 ₽</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu__wrapper">
+            <div class="container">
+                <div class="menu " id="menu">
+                    <h2 class="menu__name">
+                        Наше меню
+                    </h2>
+                    <div class="swiper-container1 swiper">
+                        <div class="swiper-wrapper menu__list animation">
+                            <div class="swiper-slide menu__item card ">
+                                <div class="menu__rec active">
+                                    recommended
+                                </div>
+                                <div class="card__content">
+                                    
+                                    <div class="card__photo">
+                                        <div class="card__circle">
+                                            420
+                                        </div>
+                                        <img src="./img/burger.png" alt="meal">
+                                    </div>
+                                    <p class="card__name">
+                                        Гамбургер макси
+                                    </p>
+                                    <p class="card__discription ">
+                                        Максимально толстый 
+                                            слой мяса
+                                    </p>
+                                    <div class="card__btn btn">
+                                        <a href="#">заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide menu__item card ">
+                                <div class="menu__rec">
+                                    recommended
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__photo">
+                                        <div class="card__circle">
+                                            420
+                                        </div>
+                                        <img src="./img/burger.png" alt="meal">
+                                    </div>
+                                    <p class="card__name">
+                                        Гамбургер макси
+                                    </p>
+                                    <p class="card__discription ">
+                                        Максимально толстый 
+                                            слой мяса
+                                    </p>
+                                    <div class="card__btn btn">
+                                        <a href="#">заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide menu__item card ">
+                                <div class="menu__rec">
+                                    recommended
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__photo">
+                                        <div class="card__circle">
+                                            420
+                                        </div>
+                                        <img src="./img/burger.png" alt="meal">
+                                    </div>
+                                    <p class="card__name">
+                                        Гамбургер макси
+                                    </p>
+                                    <p class="card__discription ">
+                                        Максимально толстый 
+                                            слой мяса
+                                    </p>
+                                    <div class="card__btn btn">
+                                        <a href="#">заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide menu__item card ">
+                                <div class="menu__rec">
+                                    recommended
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__photo">
+                                        <div class="card__circle">
+                                            420
+                                        </div>
+                                        <img src="./img/burger.png" alt="meal">
+                                    </div>
+                                    <p class="card__name">
+                                        Гамбургер макси
+                                    </p>
+                                    <p class="card__discription ">
+                                        Максимально толстый 
+                                            слой мяса
+                                    </p>
+                                    <div class="card__btn btn">
+                                        <a href="#">заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide menu__item card ">
+                                <div class="menu__rec">
+                                    recommended
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__photo">
+                                        <div class="card__circle">
+                                            420
+                                        </div>
+                                        <img src="./img/burger.png" alt="meal">
+                                    </div>
+                                    <p class="card__name">
+                                        Гамбургер макси
+                                    </p>
+                                    <p class="card__discription ">
+                                        Максимально толстый 
+                                            слой мяса
+                                    </p>
+                                    <div class="card__btn btn">
+                                        <a href="#">заказать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__wrapper">
+            <div class="container">
+                <div class="swiper-container2 swiper reviews animation">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide reviews__card">
+                            <p class="reviews__description ">
+                                Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!!
+                                Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим
+                                друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                            </p>
+                            <div class="reviews__photo">
+                                <img src="./img/Avatar.png" alt="Avatar">
+                            </div>
+                            <div class="reviews__account">
+                                <p class="reviews__type">
+                                    Посетитель
+                                </p>
+                                <p class="reviews__name">
+                                    Николай
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide reviews__card">
+                            <p class="reviews__description ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quia doloremque 
+                                unde alias consectetur molestias quidem porro eligendi temporibus inventore? Minus, 
+                                quae? Distinctio itaque hic vero assumenda voluptas libero accusamus!
+                            </p>
+                            <div class="reviews__photo">
+                                <img src="./img/Avatar.png" alt="Avatar">
+                            </div>
+                            <div class="reviews__account">
+                                <p class="reviews__type">
+                                    Посетитель
+                                </p>
+                                <p class="reviews__name">
+                                    Илья
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide reviews__card">
+                            <p class="reviews__description ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quia doloremque 
+                                unde alias consectetur molestias quidem porro eligendi temporibus inventore? Minus, 
+                                quae? Distinctio itaque hic vero assumenda voluptas libero accusamus!
+                            </p>
+                            <div class="reviews__photo">
+                                <img src="./img/Avatar.png" alt="Avatar">
+                            </div>
+                            <div class="reviews__account">
+                                <p class="reviews__type">
+                                    Посетитель
+                                </p>
+                                <p class="reviews__name">
+                                    Полина
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tcook">
+                <h2 class="tcook__name">
+                    Наши <span>Повара</span>
+                </h2>
+                <div class="tcook__list">
+                    <div class="tcook__photo">
+                        <img class="animation" src="./img/cook1.png" alt="cook">
+                        <img class="animation" src="./img/cook2.png" alt="cook">
+                        <img class="animation" src="./img/cook3.png" alt="cook">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
